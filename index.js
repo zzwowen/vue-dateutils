@@ -1,1 +1,1 @@
-module.exports =require('./lib/dateUtils.js')
+module.exports =require('./dateUtils.js')
