@@ -3,17 +3,17 @@
 
 [bugs] https://github.com/zzwowen/vue-dateutils/issues
 
-[npm] npm install vue-dateutils+
+[npm] npm install vue-dateutils
 
 [script] 
 
-<script type="text/javascript" src="dateUtils.js"></script> 
+	<script type="text/javascript" src="dateUtils.js"></script> 
 
-<script type="text/javascript" src="dateUtils.min.js"></script>
+	<script type="text/javascript" src="dateUtils.min.js"></script>
 
 
-   /**
-   
+  
+
 	*If you use NPM to introduce 'npm install vue-dateutils';
 	*import 'dateUtils' from 'vue-dateutils';
 
