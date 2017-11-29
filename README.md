@@ -3,7 +3,8 @@
 
 [bugs] https://github.com/zzwowen/vue-dateutils/issues
 
-[npm] npm install vue-dateutils
+[npm] 
+	npm install vue-dateutils
 
 [script] 
 
@@ -11,19 +12,21 @@
 
 	<script type="text/javascript" src="dateUtils.min.js"></script>
 
+[Use]
 
-  
+	If you use NPM to introduce 'npm install vue-dateutils';
 
-	*If you use NPM to introduce 'npm install vue-dateutils';
-	*import 'dateUtils' from 'vue-dateutils';
+	import 'dateUtils' from 'vue-dateutils';
 
-	*console.log(dateUtils.dateToStr("YYYY-MM-DD",new Date()));
-	==>//'2017-11-29'
+	console.log(dateUtils.dateToStr("YYYY-MM-DD",new Date()));
 
-	*If you use the script label '<script type="text/javascript" src="dateUtils.min.js"></script>'
+	==>'2017-11-29'
 
-	*/console.log(dateUtils.dateToStr("YYYY-MM-DD",new Date()));
-	==>//'2017-11-29'
+	If you use the script label '<script type="text/javascript" src="dateUtils.min.js"></script>'
+
+	console.log(dateUtils.dateToStr("YYYY-MM-DD",new Date()));
+
+	==>'2017-11-29'
 
 [method]
 
