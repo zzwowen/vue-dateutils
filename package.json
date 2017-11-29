@@ -1,14 +1,32 @@
 {
-  "name": "vue-dateutils1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "vue-dateutils",
+  "version": "1.0.6",
+  "description": "The transformation between date type and string type can calculate the time difference between two dates, calculate the maximum number of days in a month, and so on, and achieve various ways to deal with date types.",
+  "main": "dateutils.min.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "date"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzwowen/vue-dateutils.git"
+  },
   "author": "siriuszz",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzwowen/vue-dateutils/issues"
+  },
+  "homepage": "https://github.com/zzwowen/vue-dateutils#readme",
+  "keywords": [
+    "date",
+    "datetostring",
+    "stringtodate",
+    "calcdate",
+    "getMaxDayOfDate",
+    "DateToArray",
+    "isDate",
+    "DateToMillisecond"
+  ]
 }
