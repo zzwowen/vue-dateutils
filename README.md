@@ -1,22 +1,28 @@
+
 [support] https://github.com/zzwowen/vue-dateutils
+
 [bugs] https://github.com/zzwowen/vue-dateutils/issues
-[npm] npm install vue-dateutils
+
+[npm] npm install vue-dateutils+
+
 [script] <script type="text/javascript" src="dateUtils.js"></script> or <script type="text/javascript" src="dateUtils.min.js"></script>
+
 [demo](./lib/demo.html)
-[Introduction]
-If you use NPM to introduce 'npm install vue-dateutils';
-import 'dateUtils' from 'vue-dateutils';
 
-console.log(dateUtils.dateToStr("YYYY-MM-DD",new Date()));
-==>//'2017-11-29'
+   /**
+	*If you use NPM to introduce 'npm install vue-dateutils';
+	*import 'dateUtils' from 'vue-dateutils';
 
-If you use the script label '<script type="text/javascript" src="dateUtils.min.js"></script>'
+	*console.log(dateUtils.dateToStr("YYYY-MM-DD",new Date()));
+	==>//'2017-11-29'
 
-console.log(dateUtils.dateToStr("YYYY-MM-DD",new Date()));
-==>//'2017-11-29'
+	*If you use the script label '<script type="text/javascript" src="dateUtils.min.js"></script>'
+
+	*/console.log(dateUtils.dateToStr("YYYY-MM-DD",new Date()));
+	==>//'2017-11-29'
 
 [method]
-/**
+ /**
   *Determine whether a date object is a leap year
   *判断闰年
   *param date (Date Object)
@@ -25,7 +31,7 @@ console.log(dateUtils.dateToStr("YYYY-MM-DD",new Date()));
  ===>  isLeapYear(date)
 
 
- /**
+ 	/**
  	 *date to string
 	 * 日期对象转换为指定格式的字符串
 	 * @param f 日期格式,格式定义如下 yyyy-MM-dd HH:mm:ss
