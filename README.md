@@ -7,15 +7,11 @@
 
 	npm install vue-dateutils
 
-	or
-
 	cnpm install vue-dateutils --save
 
 [script] 
 
 	<script type="text/javascript" src="dateUtils.js"></script> 
-
-	or
 
 	<script type="text/javascript" src="dateUtils.min.js"></script>
 
