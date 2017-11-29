@@ -5,9 +5,10 @@
 
 [npm] npm install vue-dateutils+
 
-[script] <script type="text/javascript" src="dateUtils.js"></script> or <script type="text/javascript" src="dateUtils.min.js"></script>
+[script] 
+<script type="text/javascript" src="dateUtils.js"></script> 
+<script type="text/javascript" src="dateUtils.min.js"></script>
 
-[demo](./lib/demo.html)
 
    /**
 	*If you use NPM to introduce 'npm install vue-dateutils';
@@ -22,13 +23,14 @@
 	==>//'2017-11-29'
 
 [method]
- /**
-  *Determine whether a date object is a leap year
-  *判断闰年
-  *param date (Date Object)
-  *return boolean true or false
-  */
- ===>  isLeapYear(date)
+
+	/**
+	 *Determine whether a date object is a leap year
+	 *判断闰年
+	 *param date (Date Object)
+	 *return boolean true or false
+	 */
+===> isLeapYear(date)
 
 
  	/**
@@ -76,26 +78,26 @@
 	 * 字符串转换为日期对象
 	 * @param date Date 格式为yyyy-MM-dd HH:mm:ss，必须按年月日时分秒的顺序，中间分隔符不限制
 	 */
-===>strToDate(dateStr)
+===> strToDate(dateStr)
 
 	/**
 	 * 把指定格式的字符串转换为日期对象yyyy-MM-dd HH:mm:ss
 	 *
 	 */
-===>strFormatToDate(formatStr, dateStr)
+===> strFormatToDate(formatStr, dateStr)
 
 
 	/**
 	 * 日期对象转换为毫秒数
 	 */
-===>dateToLong(date)
+===> dateToLong(date)
 
 
 	/**
 	 * 毫秒转换为日期对象
 	 * @param dateVal number 日期的毫秒数
 	 */
-===>longToDate(dateVal)
+===> longToDate(dateVal)
 
 
 	/**
@@ -103,20 +105,20 @@
 	 * @param str string 字符串
 	 * @param formatStr string 日期格式， 如下 yyyy-MM-dd
 	 */
-===>isDate(str, formatStr)
+===> isDate(str, formatStr)
 
 
 
 	/**
 	  *当前年月的天数
 	  */
-===>getMaxDay(year, month)
+===> getMaxDay(year, month)
 
 
 	/**
 	 * 把日期分割成数组 [年、月、日、时、分、秒]
 	 */
-===>toArray(myDate) 
+===> toArray(myDate) 
 
 
 	/**
@@ -127,7 +129,7 @@
 ===>datePart(interval, myDate)
 
 
-/**
+	/**
 	 * 取得当前日期所在月的最大天数
 	 */
 ===>maxDayOfDate(date)
