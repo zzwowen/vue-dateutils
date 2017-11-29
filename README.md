@@ -4,6 +4,7 @@
 [bugs] https://github.com/zzwowen/vue-dateutils/issues
 
 [npm] 
+
 	npm install vue-dateutils
 
 [script] 
@@ -16,7 +17,7 @@
 
 	If you use NPM to introduce 'npm install vue-dateutils';
 
-	import 'dateUtils' from 'vue-dateutils';
+	import dateUtils from 'vue-dateutils';
 
 	console.log(dateUtils.dateToStr("YYYY-MM-DD",new Date()));
 
